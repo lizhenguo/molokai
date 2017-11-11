@@ -177,7 +177,7 @@ if &t_Co > 255
    hi Macro           ctermfg=193
    hi SpecialKey      ctermfg=81
 
-   hi MatchParen      ctermfg=233  ctermbg=208 cterm=bold
+   hi MatchParen      ctermfg=243  ctermbg=208 cterm=bold
    hi ModeMsg         ctermfg=229
    hi MoreMsg         ctermfg=229
    hi Operator        ctermfg=161
@@ -225,7 +225,7 @@ if &t_Co > 255
    hi WildMenu        ctermfg=81  ctermbg=16
 
    hi Comment         ctermfg=59
-   hi CursorColumn                ctermbg=236
+   hi CursorColumn                ctermbg=238
    hi ColorColumn                 ctermbg=236
    hi LineNr          ctermfg=250 ctermbg=236
    hi NonText         ctermfg=59
@@ -269,6 +269,11 @@ if &t_Co > 255
        hi NonText         ctermfg=239
        hi SpecialKey      ctermfg=239
    endif
+   """"""""""""""""""""""""""""""""""""
+   "  My own modification to molokai  "
+   """"""""""""""""""""""""""""""""""""
+   " For tagbar highlight
+   hi TagbarSignature ctermfg=244
 end
 
 " Must be at the end, because of ctermbg=234 bug.
