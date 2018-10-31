@@ -232,6 +232,9 @@ if &t_Co > 255
 
    hi SpecialKey      ctermfg=59
 
+   " Inspiration from `hi airline_a_bold`
+   hi TabLineFill term=bold cterm=bold ctermfg=17 ctermbg=190 gui=bold guifg=#00005f guibg=#dfff00
+
    if exists("g:rehash256") && g:rehash256 == 1
        hi Normal       ctermfg=252 ctermbg=234
        hi CursorLine               ctermbg=236   cterm=none
