@@ -177,7 +177,7 @@ if &t_Co > 255
    hi Macro           ctermfg=193
    hi SpecialKey      ctermfg=81
 
-   hi MatchParen      ctermfg=243  ctermbg=208 cterm=bold
+   hi MatchParen      ctermfg=209  ctermbg=242 cterm=bold
    hi ModeMsg         ctermfg=229
    hi MoreMsg         ctermfg=229
    hi Operator        ctermfg=161
@@ -200,7 +200,7 @@ if &t_Co > 255
    hi SpecialComment  ctermfg=245               cterm=bold
    hi Special         ctermfg=81
    if has("spell")
-       hi SpellBad                ctermbg=52
+       hi SpellBad                ctermbg=88
        hi SpellCap                ctermbg=17
        hi SpellLocal              ctermbg=17
        hi SpellRare  ctermfg=none ctermbg=none  cterm=reverse
@@ -265,10 +265,10 @@ if &t_Co > 255
        hi Statement       ctermfg=197               cterm=bold
        hi Tag             ctermfg=197
        hi Title           ctermfg=203
-       hi Visual                      ctermbg=238
+       hi Visual                      ctermbg=242
 
-       hi Comment         ctermfg=244
-       hi LineNr          ctermfg=239 ctermbg=235
+       hi Comment         ctermfg=245
+       hi LineNr          ctermfg=247 ctermbg=235
        hi NonText         ctermfg=239
        hi SpecialKey      ctermfg=239
    endif
